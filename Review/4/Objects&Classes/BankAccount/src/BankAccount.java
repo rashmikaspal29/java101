@@ -40,6 +40,12 @@ public class BankAccount {
         balance -= amount;
     }
 
+    public String toString(){
+        return "Account: #"+ accountNumber +
+                "| Owner: "+ ownerName +
+                "| Balance: "+ balance;
+    }
+
     
 }
 

@@ -14,6 +14,9 @@ public class App {
         BankAccount.printSummary(acc1);
         BankAccount.printSummary(acc2);
 
+        System.out.println("\nAfter Overriding: ");
+        System.out.println(acc1);
+
  
         // printSummary(acc1);
         
